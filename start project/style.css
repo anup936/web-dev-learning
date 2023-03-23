@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 2.8rem;
+}
+.pt{
+    padding: 20px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* Top header */
+.header{
+    width: 100%;
+    height: 203px;
+    text-align: center;
+    padding: 40px;
+    background-color: #2d3135;
+    color: aliceblue;
+}
+/* Nav Bar */
+ 
+nav {
+    width: 100%;
+			background-color: #bd8585;
+			overflow: hidden;
+             
+}
+
+nav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 20px 144px;
+	text-decoration: none;
+	font-size: 17px;
+    
+    
+}
+
+nav a:hover {
+	background-color: #ddd;
+	color: rgb(56, 34, 34);
+}
+.bul{
+    background-image: url(./img/asset\ 5.jpeg);
+    background-size: cover;
+    height: 300px;
+  }
+
+/* new section */
+.main{
+    width: 100%;
+    background-color: #f5f0f0;
+    height: 700px;
+    position: relative;
+    /* align-items: center; */
+}
+.full{
+    position: absolute;
+    left: 110px;
+    top: 90px;
+    /* bottom: 100px; */
+    width: 1140px;
+    height: 548px;
+    /* background-color: #dbe9d6; */
+    display: flex;
+}
+.left-div{
+    padding: 0px 20px;
+    margin-top: 1em;
+    text-align: left;
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black */
+}
+.text-danger{
+    color: red;
+    text-align: left;
+    padding:  10px ;
+    font-size: 2rem;
+}
+p{
+    padding: 20px 20px 20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    /* margin-top: 10px; */
+}
+.pg{
+    padding: 2px 20px 20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    /* margin-top: 10px; */
+}
+.right-div{
+    margin-top: 1em;
+    text-align: left;
+    width: 60%;
+    height: 100%;
+    /* width: ; */
+}
+
+/* Addvertiesment section */
+.fully{
+    width: 100%;
+    display: flex;
+    
+    padding: 20px;
+    
+    justify-content: center;
+}
+.bgr{
+    background-color:#a80154;
+    padding: 20px;
+    height: 500px;  
+}
+h3{
+    color: #f5f0f0;
+}
+/* last section */
+hr{
+    background-color: grey;
+}
+.last-sectionA{
+    background-color: #1e1b1a;
+    padding: 20px;
+    height: 600px;  
+    overflow: hidden;
+
+}
+.last-section{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    
+    color: #ddd;
+}
+.divA{
+    width: 30%;
+    margin: 16px 0px;
+    padding: 0px 15px;
+}
+.divB{
+    width: 30%;
+    margin: 16px 0px;
+    padding: 0px 15px;
+}
+.divC{
+    width: 30%;
+    margin: 16px 0px;
+    padding: 0px 15px;
+}
+/* footer */
+.footer{
+        width: 100%;
+        height: 150px;
+        text-align: center;
+        padding-top: 40px;
+        background-color: #a80154;
+        color: rgb(74, 74, 75);   
+}
+.pn{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.wer{
+    height: 30px;
+}
