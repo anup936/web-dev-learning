@@ -1,0 +1,104 @@
+@media screen and (min-width: 570px) and (max-width: 991px){  
+   *{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+   }
+   .big{
+      display: block;
+      width: 100%;
+      height: 220px;
+   }
+   .divA{
+      width: 100%;
+      height: 120px;
+      text-align: center;
+      padding-top: 20px;
+   }
+   .Nan{
+      height: 80px;
+   }
+   .divB{
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      margin-right: 20px;
+      padding-inline-start: 20px;
+      /* display: inline; */  
+   }
+   nav a{
+      padding: 40px;
+      margin-right: 10px;
+   }
+   /* new brand section */
+   .brand{
+      width: 100%;
+      height: 190px;
+      text-align: center;
+      display: inline-block;
+      padding-inline-end: 30px;
+   }
+   /* new ing section */
+   .photo{
+      width: 100%;
+      height: 1500px;
+      display:block ;
+      /* position: relative; */
+   }
+   .picA{
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      /* position: absolute;
+      left: 10%;  */
+      align-items: center;
+
+   }
+   .picB{
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      /* position: absolute;
+      top: 500px;
+      left: 10%;  */
+   }
+   .picC{
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      /* position: absolute;
+      top: 1000px;
+      left: 10%;  */
+   }
+   .back{
+      height: 100%;
+      width: 100%;
+      display: none;
+      padding: 190px 20px 10px 20px;
+      text-align: center;
+  }
+  .picB:hover .back{
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      opacity: 0.5;
+      color: white;
+      display: block;
+  } 
+  
+  .back2{
+   height: 100%;
+   width: 100%;
+   display: none;
+   padding: 190px 20px 10px 20px;
+   text-align: center;
+}
+.picC:hover .back2{
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   opacity: 0.5;
+   color: white;
+   display: block;
+}
+}
